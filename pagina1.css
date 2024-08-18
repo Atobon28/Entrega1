@@ -27,3 +27,88 @@ body {
     font-size: 30px;
     font-family: Arial;
     }
+
+    .formulario {
+    display: flex;
+    align-items: center;
+    color: #091737;
+    font-size: 20px;
+    font-family: Helvetica;
+    }
+
+   input {
+    background-color: #3b66c922;
+    border-radius: 10px;  
+    height: 40px; 
+    width: 400px;
+    border: #09173748;
+    }
+
+    .margen {
+    margin-bottom: 20px;
+    }
+
+    .boton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    }
+
+   button {
+    background-color: #0e42bb71;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    }
+
+    .forgotPassword {
+        text-align: right;
+        margin-right: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .forgotPassword a {
+        color: #929ba3;
+        text-decoration: none;
+    }
+    
+    h4 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+        align-items: space-around;
+        font-size: 15px;
+        font-family: Helvetica;
+        color: #2e363d;
+        }
+
+    .imagenes {
+        display: flex;
+        justify-content: center;
+
+        }
+    
+    img {
+        border-radius: 30px;
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+        margin-bottom: 40px;
+        }
+
+        .nueva {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: Helvetica;
+        }
+        
+        .nueva a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        
+        .nueva a:hover {
+            text-decoration: underline;
+        }
