@@ -1,0 +1,146 @@
+body {
+    background-image: url("./IMAGENES/3134864.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+.cuadrotexto {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 255, 98);
+    width: 500px;
+    height: 700px;
+    border-radius: 30px 0 0 30px;
+    margin-left: 90px;
+    margin-top: 50px;
+   }
+
+.imagenprinci {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+   }
+
+#Ladito   {
+    width: 1000px;
+    height: 700px;
+    border-radius: 0 30px 30px 0;
+    margin-left: 500px;
+   }
+
+.muñeco {
+    position: absolute;
+    bottom: -30px; 
+    right: 50px; 
+    width: 200px;
+   }
+
+#Muñeco   {
+    width: 200px;                   
+    height: 200px;
+}
+
+.flechita {
+    position: absolute;
+    bottom: -30px; 
+    right: 80px; 
+    width: 350px;
+   }
+
+#flechita   {
+    width: 100px;
+  
+}
+
+.anonimus {
+    position: absolute;
+    top: 30px; 
+    right: 60px; 
+    width: 350px;
+   }
+
+#anonimus   {
+    width: 35px;
+    border-radius: 20px;
+  
+}
+
+.titulo {
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    width: 350px;
+    font-family: Arial;
+    color: rgba(107, 107, 107, 0.792);
+}
+
+.perfil {
+    position: absolute;
+    top: 100px; 
+    left: 200px; 
+    width: 350px;
+   }
+
+#perfil   {
+    width: 100px;
+    border-radius: 50px;
+  
+}
+
+.usuario {
+    position: absolute;
+    top: 190px; 
+    left: 170px; 
+    width: 350px;
+    font-family: Helvetica;
+    color: rgb(0, 46, 8);
+}
+
+.login {
+    position: absolute;
+    top: 290px; 
+    left: 90px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border: 3px solid #043c0cde;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 120px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #0a700fd4;
+    color: white;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+
+.botonL {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fp {
+    color: #8e8e8e;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-right: 90px;
+}
+
+
+.loginB {
+    padding: 8px;
+    background-color: #00521b;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
